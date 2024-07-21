@@ -14,8 +14,33 @@
   background-attachment: fixed;
 }
 
-.decorated-zone {
+/* .decorated-zone {
+  position: relative;
+  block-size: 100vh;  
+} */
 
+.decorated-zone::before {
+  content: "";
+  grid-column: 1/2;
+  grid-row: 1/2;
+  justify-self: end;
+  border-block-start: 1px solid var(--bg-accent-color);
+  border-inline-end: 1px solid var(--bg-accent-color);
+  inline-size: 25px;
+  block-size: 25px;
+  aspect-ratio: 1;
+}
+
+.decorated-zone::after {
+  content: "";
+  grid-column: 1/2;
+  grid-row: 3/4;
+  justify-self: end;
+  border-block-end: 1px solid var(--bg-accent-color);
+  border-inline-start: 1px solid var(--bg-accent-color);
+  inline-size: 25px;
+  block-size: 25px;
+  aspect-ratio: 1;
 }
 
 .decorated-element {
@@ -131,5 +156,5 @@
 }
 
 .footer__title {
-  
+
 }

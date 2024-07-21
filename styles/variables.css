@@ -3,15 +3,15 @@
   и их переопределение под различные устройства
 */
 :root {
-  --main-font: 'IBM Plex Mono', sans-serif;
+  --main-font: "IBM Plex Mono", Helvetica, Arial, sans-serif;
   --bg-color: #000028;
-  --bg-accent-color: #FF0070;
+  --bg-accent-color: #ff0070;
   --bg-image: url(../images/cover-image-dark.png);
-  --text-color: #F1B2CE;
-  --text-accent-color: #DB00FF;
+  --text-color: #f1b2ce;
+  --text-accent-color: #db00ff;
   --text-title-color: #000028;
-  --text-title-acсent-color: #FF0070;
+  --text-title-acсent-color: #ff0070;
   --padding-s: 10px;
   --padding-b: 20px;
-  --title-font-size: clamp(7.25rem, 5.7694rem + 6.3174vw, 9.8125rem);       
+  --title-font-size: clamp(7.25rem, 5.7694rem + 6.3174vw, 9.8125rem);
 }

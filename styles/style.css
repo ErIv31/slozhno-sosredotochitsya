@@ -2,4 +2,134 @@
 
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
+  font-family: var(--main-font);
+  font-weight: 400;
+  font-size: 18px;  
+  color: var(--text-color);
+  background-color: var(--bg-color);
+  background-image: var(--bg-image);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.decorated-zone {
+
+}
+
+.decorated-element {
+
+}
+
+.header {
+
+}
+
+.header__theme-menu {
+
+}
+
+.header__theme-menu-list {
+
+}
+
+.header__theme-menu-item {
+
+}
+
+.header__theme-menu-button {
+
+}
+
+.header__theme-menu-button_type_light {
+
+}
+
+.header__theme-menu-button_active {
+
+}
+
+.header__theme-menu-button_type_auto {
+
+}
+
+.header__theme-menu-button_type_dark {
+
+}
+
+.header__title {
+
+}
+
+.header__subtitle {
+
+}
+
+.title-accent {
+
+}
+
+.title-decor {
+
+}
+
+.content-wrapper {
+
+}
+
+.section__content {
+
+}
+
+.section__header {
+
+}
+
+.section-wrapper {
+
+}
+
+.section__block {
+
+}
+
+.section__title {
+
+}
+
+.section__text {
+
+}
+
+.section__subtitle {
+
+}
+
+.link-accent {
+
+}
+
+.gallery-list {
+
+}
+
+.gallery-item {
+
+}
+
+.gallery__card {
+
+}
+
+.gallery__image {
+
+}
+
+.footer {
+
+}
+
+.footer__title {
+  
 }

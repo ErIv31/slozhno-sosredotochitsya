@@ -4,6 +4,7 @@
 */
 :root {
   --main-font: "IBM Plex Mono", Helvetica, Arial, sans-serif;
+  --title-font-size: clamp(7.25rem, 5.7694rem + 6.3174vw, 9.8125rem);
   --bg-color: #000028;
   --bg-accent-color: #ff0070;
   --bg-image: url(../images/cover-image-dark.png);
@@ -13,5 +14,8 @@
   --text-title-acсent-color: #ff0070;
   --padding-s: 10px;
   --padding-b: 20px;
-  --title-font-size: clamp(7.25rem, 5.7694rem + 6.3174vw, 9.8125rem);
+  --margin-s: 40px;
+  --margin-b: 50px;
+  --gap-s: 10px;
+  --gap-b: 20px;
 }

@@ -12,10 +12,19 @@
   --text-accent-color: #db00ff;
   --text-title-color: #000028;
   --text-title-acсent-color: #ff0070;
+  --button-hover-color: #FF007066;
   --padding-s: 10px;
   --padding-b: 20px;
   --margin-s: 40px;
   --margin-b: 50px;
   --gap-s: 10px;
   --gap-b: 20px;
+}
+
+@media (min-width: 768px) {
+  :root {
+    --padding-s: 20px;
+    --margin-s: 60px;
+    --margin-b: 80px;
+  }
 }

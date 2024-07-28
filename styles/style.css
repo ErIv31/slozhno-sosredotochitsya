@@ -9,9 +9,6 @@
   color: var(--text-color);
   background: var(--bg-image) no-repeat center / cover;
   background-color: var(--bg-color);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   background-attachment: fixed;
 }
 
@@ -29,8 +26,8 @@
   inset-inline-end: calc(0% + var(--padding-small));
   inline-size: 25px;
   block-size: 25px;
-  border-block-start: 1px solid var(--bg-accent-color);
-  border-inline-end: 1px solid var(--bg-accent-color);
+  border-block-start: 1px solid var(--text-title-acсent-color);
+  border-inline-end: 1px solid var(--text-title-acсent-color);
 }
 
 .decorated-zone::after {
@@ -41,8 +38,8 @@
   inset-inline-start: calc(0% + var(--padding-small));
   inline-size: 25px;
   block-size: 25px;
-  border-block-end: 1px solid var(--bg-accent-color);
-  border-inline-start: 1px solid var(--bg-accent-color);
+  border-block-end: 1px solid var(--text-title-acсent-color);
+  border-inline-start: 1px solid var(--text-title-acсent-color);
 }
 
 .decorated-element {

@@ -174,7 +174,7 @@
 .section-why,
 .section-what,
 .section-how {
-  margin-block-end: var(--margin-b);
+  margin-block-end: var(--margin-big);
 }
 
 .section-what__content {

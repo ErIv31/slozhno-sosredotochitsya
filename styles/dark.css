@@ -11,16 +11,16 @@
   */
   --bg-color: #000028;
   --bg-accent-color: #ff0070;
-  --bg-image: url(../images/cover-image-dark.png);
   --text-color: #f1b2ce;
   --text-accent-color: #db00ff;
   --text-title-color: #000028;
   --text-title-acсent-color: #ff0070;
-  --button-hover-color: #FF007066;
+  --button-hover-color: #ff007066;
+  --bg-image: url(../images/cover-image-dark.png);
 }
 
 @media (prefers-color-scheme: dark) {
   .theme_auto {
     --bg-image: url(../images/cover-image-dark.png);
-  }  
+  }
 }

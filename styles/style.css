@@ -7,6 +7,7 @@
   font-size: 18px;
   line-height: 23.4px;
   color: var(--text-color);
+  background: var(--bg-image) no-repeat center / cover;
   background-color: var(--bg-color);
   background-position: center;
   background-repeat: no-repeat;
@@ -24,8 +25,8 @@
   content: "";
   display: block;
   position: absolute;
-  inset-block-start: calc(0% + var(--padding-s));
-  inset-inline-end: calc(0% + var(--padding-s));
+  inset-block-start: calc(0% + var(--padding-small));
+  inset-inline-end: calc(0% + var(--padding-small));
   inline-size: 25px;
   block-size: 25px;
   border-block-start: 1px solid var(--bg-accent-color);
@@ -36,8 +37,8 @@
   content: "";
   display: block;
   position: absolute;
-  inset-block-end: calc(0% + var(--padding-s));
-  inset-inline-start: calc(0% + var(--padding-s));
+  inset-block-end: calc(0% + var(--padding-small));
+  inset-inline-start: calc(0% + var(--padding-small));
   inline-size: 25px;
   block-size: 25px;
   border-block-end: 1px solid var(--bg-accent-color);
@@ -48,9 +49,9 @@
   position: absolute;
   display: flex;
   align-items: center;
-  gap: var(--gap-s);
-  inset-block-start: calc(0% + var(--padding-s));
-  inset-inline-end: calc(0% + var(--padding-s) + 9px);
+  gap: var(--gap-small);
+  inset-block-start: calc(0% + var(--padding-small));
+  inset-inline-end: calc(0% + var(--padding-small) + 9px);
   font-family: var(--main-font);
   font-weight: 400;
   font-size: 18px;
@@ -77,9 +78,8 @@
     "nav"
     "title"
     "subtitle";
-  margin-block-end: var(--margin-s);
-  padding: var(--padding-s);
-  background: var(--bg-image) no-repeat center / cover;
+  margin-block-end: var(--margin-small);
+  padding: var(--padding-small);
 }
 
 .header__theme-menu {
@@ -91,7 +91,7 @@
 .header__theme-menu-list {
   display: flex;
   flex-direction: column;
-  gap: var(--gap-s);
+  gap: var(--gap-small);
 }
 
 .header__theme-menu-button {
@@ -120,7 +120,7 @@
 }
 
 .header__theme-menu-button_active {
-  border: 1px solid var(--bg-accent-color);
+  border: 1px solid var(--text-title-acсent-color);
   pointer-events: none;
 }
 
@@ -150,12 +150,12 @@
 }
 
 .content-wrapper {
-  padding-inline: var(--padding-s);
+  padding-inline: var(--padding-small);
 }
 
 .section__content {
   display: grid;
-  gap: var(--gap-b);
+  gap: var(--gap-big);
 }
 
 .section__header {
@@ -168,7 +168,7 @@
 .section-wrapper {
   display: flex;
   flex-direction: column;
-  gap: var(--gap-b);
+  gap: var(--gap-big);
 }
 
 .section-why,
@@ -180,13 +180,13 @@
 .section-what__content {
   display: flex;
   flex-direction: column;
-  gap: var(--gap-b);
+  gap: var(--gap-big);
 }
 
 .section__block {
   display: flex;
   flex-direction: column;
-  gap: var(--gap-s);
+  gap: var(--gap-small);
 }
 
 .section__title {
@@ -225,14 +225,14 @@
 .section-gallery {
   display: flex;
   flex-direction: column;
-  gap: var(--gap-s);
-  margin-block-end: calc(var(--margin-s) - 5px);
+  gap: var(--gap-small);
+  margin-block-end: calc(var(--margin-small) - 5px);
 }
 
 .gallery-list {
   display: flex;
   flex-direction: column;
-  gap: calc(var(--gap-s) - 5px);
+  gap: calc(var(--gap-small) - 5px);
 }
 
 .gallery__image {
@@ -291,7 +291,7 @@
   }
 
   .section-gallery {
-    gap: var(--gap-b);
+    gap: var(--gap-big);
   }
 
   .gallery-list {
@@ -303,7 +303,7 @@
       "tape books ice-cream"
       "tape street street";
     object-fit: cover;
-    gap: var(--gap-s);
+    gap: var(--gap-small);
   }
 
   .gallery__image {
@@ -344,7 +344,7 @@
 
   .section-why,
   .section-how {
-    gap: var(--gap-s);
+    gap: var(--gap-small);
   }
 
   .section-what__content {

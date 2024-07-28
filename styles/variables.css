@@ -12,18 +12,18 @@
   --text-title-color: #000028;
   --text-title-acсent-color: #ff0070;
   --button-hover-color: #ff007066;
-  --padding-s: 10px;
-  --padding-b: 20px;
-  --margin-s: 40px;
-  --margin-b: 50px;
-  --gap-s: 10px;
-  --gap-b: 20px;
+  --padding-small: 10px;
+  --padding-big: 20px;
+  --margin-small: 40px;
+  --margin-big: 50px;
+  --gap-small: 10px;
+  --gap-big: 20px;
 }
 
 @media (min-width: 768px) {
   :root {
-    --padding-s: 20px;
-    --margin-s: 60px;
-    --margin-b: 80px;
+    --padding-small: 20px;
+    --margin-small: 60px;
+    --margin-big: 80px;
   }
 }
